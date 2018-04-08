@@ -7,4 +7,14 @@ public class SepatuGunung extends Sepatu{
         System.out.println("sol");
         
     }
+
+    public String getJenisSepatu() {
+        return jenisSepatu;
+    }
+
+    public void setJenisSepatu(String jenisSepatu) {
+        this.jenisSepatu = jenisSepatu;
+    }
+    
+    
 }
