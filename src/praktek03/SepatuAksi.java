@@ -6,8 +6,9 @@ public class SepatuAksi {
         a.setMerk("Nike");
         a.setWarna("Putih");
         a.setHarga(20000);
-        
-        a.cetakinfo();
+        a.setJenisSepatu();
+  
+               a.cetakinfo();
     
         System.out.println("merknya \t: ");
         System.out.println(a.getMerk());
@@ -15,6 +16,17 @@ public class SepatuAksi {
         System.out.println(a.getWarna());
         System.out.println("harganya \t: "); 
         System.out.println(a.getHarga());
+        
+        
+        
+        SepatuGunung sm = new SepatuGunung();
+        sm.setMerk("puma");
+        sm.setWarna("hijau");
+        sm.setHarga(40000);
+        sm.setJenisSepatu("sekolah");
+        sm.cetakinfo();
+        System.out.println("jenis :"+sm.getJenisSepatu());
+        sm.thorttle();
                 
     
     
